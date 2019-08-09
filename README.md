@@ -44,12 +44,12 @@ After logging in, the user can view, edit, or create data entries with preloaded
 - Plugins: React-Plotly, React-Idle-Timer, Django-Import-Export, Django-Simple-History
 
 ## Database Schema/Models
-![](Assets/Models.png)
+![](assets/Models.png)
 
 ## Demo Screenshots
-![](Assets/1Login.png)
-![](Assets/2Dashboard.png)
-![](Assets/3NewEntry.png)
-![](Assets/4Filtering.png)
-![](Assets/5EntryDetail.png)
-![](Assets/6Reporting.png)
+![](assets/1Login.png)
+![](assets/2Dashboard.png)
+![](assets/3NewEntry.png)
+![](assets/4Filtering.png)
+![](assets/5EntryDetail.png)
+![](assets/6Reporting.png)
