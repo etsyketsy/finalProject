@@ -47,9 +47,15 @@ After logging in, the user can view, edit, or create data entries with preloaded
 ![](assets/Models.png)
 
 ## Demo Screenshots
+### Login page
 ![](assets/1Login.png)
+### Dashboard for existing data
 ![](assets/2Dashboard.png)
+### Creating a new entry
 ![](assets/3NewEntry.png)
+### Filtering based on parent entry
 ![](assets/4Filtering.png)
+### Viewing entry details
 ![](assets/5EntryDetail.png)
+### Reporting Interface
 ![](assets/6Reporting.png)
