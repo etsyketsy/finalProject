@@ -38,6 +38,11 @@ After logging in, the user can view, edit, or create data entries with preloaded
  - Free comment field for certain data fields for additional information
  - Full change history for compliance reasons
 
+ ## Next steps
+ - Build out reporting page to include new report generation and advanced filtering
+ - Refine export feature to export selected data
+ - Implement tests for all endpoints
+
 ## Technology
 - DevOps: Docker, Gitlab, CI/CD, Nginx
 - Backend: Python, Django REST Framework, Postgres (API: LINK TO API DOC)
