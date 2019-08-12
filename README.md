@@ -16,7 +16,7 @@ I worked alongside 2 fellow students with the guidance of our instructors to bui
 **I was primarily responsible for the following:**
 - DevOps: Project setup(file structure, container setup, etc.), deployment, [admin features](https://github.com/etsyketsy/finalProject/blob/master/backend/project/project/api/admin.py), and API/database maintenance
 - Backend: [Models](https://github.com/etsyketsy/finalProject/tree/master/backend/project/project/api/models), [serializers](https://github.com/etsyketsy/finalProject/tree/master/backend/project/project/api/Serializers), and [endpoint requirements](https://github.com/etsyketsy/finalProject/blob/master/backend/README.md)
-- Frontend: [Reporting features](https://github.com/etsyketsy/finalProject/tree/master/frontend/frontend/src/components/Plots), auto-logout functionality
+- Frontend: [Reporting features](https://github.com/etsyketsy/finalProject/tree/master/frontend/frontend/src/components/Plots)
 
 ## How does it work?
 
