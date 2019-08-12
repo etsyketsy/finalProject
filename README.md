@@ -11,12 +11,12 @@ With each stage of their experiments, different data needs to be logged and trac
 This was the final project for my [Full Stack Web Development Bootcamp](https://propulsion.academy/full-stack) at Propulsion Academy built out for a swiss biotech company.
 
 ## My contributions
-I worked alongside 2 fellow students with the guidance of our instructors to build this app from scratch to the meet the company's needs.  
+I worked alongside 2 fellow students with the guidance of our instructors to build this app from scratch to the meet the company's needs. We assigned primary responsibilities to each team member, but also contributed to other sections (i.e. building out endpoints, writing actions for the frontend, etc.) as needed to complete the project in the 3 week timeline.
 
 **I was primarily responsible for the following:**
-- DevOps: Project setup, deployment, admin features, and API/database maintenance
-- Backend: Models, serializers, and endpoint list
-- Frontend: Reporting features, auto-logout functionality
+- DevOps: Project setup(file structure, container setup, etc.), deployment, [admin features](https://github.com/etsyketsy/finalProject/blob/master/backend/project/project/api/admin.py), and API/database maintenance
+- Backend: [Models](https://github.com/etsyketsy/finalProject/tree/master/backend/project/project/api/models), [serializers](https://github.com/etsyketsy/finalProject/tree/master/backend/project/project/api/Serializers), and [endpoint requirements](https://github.com/etsyketsy/finalProject/blob/master/backend/README.md)
+- Frontend: [Reporting features](https://github.com/etsyketsy/finalProject/tree/master/frontend/frontend/src/components/Plots), auto-logout functionality
 
 ## How does it work?
 
@@ -35,6 +35,7 @@ After logging in, the user can view, edit, or create data entries with preloaded
  - Preloaded fields for data entries stemming off of existing data
  - Export function to download data in chosen format
  - Real-time filterable reporting interface showing key metrics
+ - Free comment field for certain data fields for additional information
  - Full change history for compliance reasons
 
 ## Technology
