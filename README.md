@@ -46,7 +46,7 @@ After logging in, the user can view, edit, or create data entries with preloaded
 ## Technology
 - DevOps: Docker, Gitlab, CI/CD, Nginx
 - Backend: Python, Django REST Framework, Postgres (API: LINK TO API DOC)
-- Frontend: HTML, SCSS, JavaScript, React, Redux
+- Frontend: HTML, CSS, JavaScript, React, Redux
 - Plugins: React-Plotly, React-Idle-Timer, Django-Import-Export, Django-Simple-History
 
 ## Database Schema/Models
