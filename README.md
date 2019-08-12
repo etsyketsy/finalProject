@@ -18,6 +18,7 @@ I worked alongside 2 fellow students with the guidance of our instructors to bui
 - Backend: [Models](https://github.com/etsyketsy/finalProject/tree/master/backend/project/project/api/models), [serializers](https://github.com/etsyketsy/finalProject/tree/master/backend/project/project/api/Serializers), and [endpoint requirements](https://github.com/etsyketsy/finalProject/blob/master/backend/README.md)
 - Frontend: [Reporting features](https://github.com/etsyketsy/finalProject/tree/master/frontend/frontend/src/components/Plots), API calls
 
+
 ## How does it work?
 
 After logging in, the user can view, edit, or create data entries with preloaded fields for each experiment step.
