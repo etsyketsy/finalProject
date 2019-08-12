@@ -1,0 +1,79 @@
+.dashboard-page-main-container {
+  display: flex;
+  /* background: rgba(74, 161, 219, 0.089); */
+  background: white;
+  height: calc(100vh - 80px);
+  display: flex;
+  overflow: auto;
+  width: 100vw;
+}
+
+/* adding more passages */
+
+.add-passage-button {
+  border: none;
+  background: rgb(236, 154, 30);
+  height: 28px;
+  width: 75px;
+  border-radius: 5px;
+  color: white;
+  font-size: 13px;
+  box-shadow: -0.1em 0 0.5em rgba(17, 17, 17, 0.541);
+  cursor: pointer;
+  margin: 5px;
+  box-sizing: border-box;
+}
+
+.add-passage-button:focus {
+  outline: none;
+}
+
+.create-more-passages-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  height: auto;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 10px;
+}
+
+.create-more-passages-button {
+  border: none;
+  background: rgb(241, 167, 54);
+  height: 50px;
+  width: 90px;
+  border-radius: 5px;
+  color: white;
+  font-size: 13px;
+  box-shadow: -0.1em 0 0.5em rgba(17, 17, 17, 0.541);
+  cursor: pointer;
+  margin: 5px;
+  box-sizing: border-box;
+}
+
+.show-how-many-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 70px;
+}
+
+.create-more-passages-container input {
+  border: solid lightgrey 1px;
+  box-shadow: none;
+  height: 25px;
+  width: 70%;
+  box-sizing: border-box;
+  margin: 0 0 0 0;
+}
+
+.create-more-passages-container span {
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+.create-more-passages-container input:focus {
+  outline: none;
+}

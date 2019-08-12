@@ -1,0 +1,24 @@
+.add-item-button {
+    border: none;
+    height: 33px;
+    width: 80px;
+    background: rgba(255, 166, 0, 0.863);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    box-shadow: -0.05em 0 0.9em rgba(123, 123, 124, 0.192);
+    border-radius: 4px;
+    margin-right: 5px;
+}
+
+.add-item-button:hover {
+    width: 81px;
+    font-size: 14px;
+    background: rgb(248, 163, 6);
+
+}
+
+.add-item-button:focus {
+    outline: none;
+
+}

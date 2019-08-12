@@ -1,0 +1,43 @@
+.logout-confirmation-inside-container {
+  position: fixed;
+  top: 35%;
+  left: 35%;
+  right: 35%;
+  bottom: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.932);
+  border-radius: 4px;
+}
+
+.logout-confirmation-outside-container {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(22, 22, 22, 0.767);
+  z-index: 2;
+}
+
+.logout-confirmation-button {
+  font-family: 'Montserrat', sans-serif;
+  background: rgb(211, 50, 50);
+  color: white;
+  border: none;
+  height: 28px;
+  border-radius: 3px;
+  width: 110px;
+}
+
+.cancel-confirmation-button {
+  font-family: 'Montserrat', sans-serif;
+  border: none;
+  height: 28px;
+  border-radius: 3px;
+  width: 90px;
+  background: rgb(134, 133, 133);
+  color: white;
+}

@@ -1,0 +1,29 @@
+.dashboard-title-main-container {
+  position: relative;
+  z-index: 3;
+  display: flex;
+  padding: 0 0 0 20px;
+  margin: 0;
+  height: 80px;
+  width: 100vw;
+  box-sizing: border-box;
+  background: white;
+  box-shadow: 0 0.1em 0.1em -0.1em rgba(54, 86, 192, 0.699);
+  align-items: center;
+}
+
+.dashboard-title-main-container img {
+  width: auto;
+  height: 50px;
+  margin-right: 30px;
+}
+
+.dashboard-title-main-container h1 {
+  height: 100%;
+  width: 100%;
+  margin: 0 0 0 0;
+  font-size: 23px;
+  display: flex;
+  align-items: center;
+  color: rgba(85, 85, 194, 0.884);
+}

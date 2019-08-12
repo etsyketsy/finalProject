@@ -1,0 +1,86 @@
+.navigation-side-main-container {
+  position: relative;
+  display: flex;
+  height: 100%;
+  background-color: white;
+  z-index: 2;
+  box-shadow: -0.1em 0 0.2em rgba(54, 86, 192, 0.699);
+  box-sizing: border-box;
+}
+
+.navigation-side-container {
+  height: 100%;
+  height: calc(99.4vh - 80px);
+  width: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.navigation-side-top-container {
+  border-bottom: rgb(235, 172, 182) solid 3px;
+  height: 185px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.eskin-logo {
+  width: 2px;
+  height: auto;
+}
+
+.navigation-side-avatar {
+  width: 75%;
+}
+
+.navigation-side-icons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 7px 0;
+  width: 86px;
+  height: 70px;
+}
+
+.navigation-side-icons-container:hover {
+  background: rgba(0, 0, 0, 0.089);
+  box-shadow: -0.05em 0 0.9em rgba(124, 104, 118, 0.144);
+  transition: 0.1s;
+}
+.navigation-side-icons-container img {
+  height: 35px;
+  width: 35px;
+}
+
+.navigation-side-icons-container img:hover {
+  height: 38px;
+  width: 38px;
+  transition: 0.2s;
+}
+
+.logout-button {
+  height: 40px;
+  width: 60px;
+  border: rgba(241, 48, 0, 0.89) solid;
+  background: red;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  color: white;
+  box-shadow: -0.2em 0 0.9em rgba(36, 36, 39, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.logout-button img {
+  height: 20px;
+  width: 20px;
+}

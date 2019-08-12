@@ -1,0 +1,61 @@
+login-page-main-container {
+  
+}
+
+.login-inputs {
+  border: lightgrey 1px solid;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.842);
+}
+
+.login-inputs:focus {
+  outline: none;
+ 
+}
+.login h2 {
+  color: rgba(0, 0, 0, 0.705);
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+
+}
+
+::placeholder {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.login {
+  left:44%;
+  top: 30%;
+  bottom: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  position: absolute;
+  
+}
+.error {
+  color: red;
+}
+
+.background-image-container {
+  height: calc(100vh - 80px);
+  width: 100vw;
+  background: linear-gradient(to right, rgba(247, 247, 248, 0.555),rgba(165, 165, 211, 0.753)), url('../../Assets/eskinpicFinal.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;  
+  z-index: -1;
+}
+
+.Login-button {
+  border: none;
+  color: white;
+  background: orange;
+  width: 100px;
+  font-weight: bold;
+  float: right;
+  height: 35px;
+  border-radius: 5px;
+}

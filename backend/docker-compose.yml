@@ -1,0 +1,33 @@
+version: '3'
+services:
+  database:
+    container_name: database
+    image: postgres:9.6.1
+    restart: always
+    env_file:
+      - dev.env
+    ports:
+      - "5432:5432"
+    volumes:
+      - database:/var/lib/postgresql/data
+
+  project:
+    container_name: backend
+    image: registry.gitlab.propulsion-home.ch/full-stack/batch-2019-02/personal-projects/eskin/backend:latest
+    restart: always
+    env_file:
+      - dev.env
+    ports:
+      - "8090:8000"
+      - "4738:22"
+    command: "/usr/sbin/sshd -D"
+    depends_on:
+      - database
+    volumes:
+      - ./project:/project
+      - ./media-files:/media-files
+      - ./static-files:/static-files
+      - ./scripts:/scripts
+
+volumes:
+  database:

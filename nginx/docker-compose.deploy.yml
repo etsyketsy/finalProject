@@ -1,0 +1,30 @@
+version: '3'
+services:
+  nginx:
+    image: "registry.gitlab.propulsion-home.ch/full-stack/batch-2019-02/personal-projects/eskin/nginx:${CI_BUILD_REF_NAME}"
+    restart: always
+    env_file:
+      - ./config/prod/nginx.env
+    command: "sh /start.sh"
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - media-files:/media-files
+      - static-files:/static-files
+      - frontend:/frontend
+      - "/etc/letsencrypt:/etc/letsencrypt:ro"
+      - "/etc/nginx/ssl/dhparam.pem:/etc/ssl/certs/dhparam.pem:ro"
+
+volumes:
+  media-files:
+    external: true
+  static-files:
+    external: true
+  frontend:
+    external: true
+
+networks:
+  default:
+    external:
+      name: eskin

@@ -1,0 +1,19 @@
+version: '3'
+services:
+  frontend:
+      image: registry.gitlab.propulsion-home.ch/full-stack/batch-2019-02/personal-projects/eskin/frontend:latest
+      build:
+        context: .
+        dockerfile: Dockerfile
+      volumes:
+        - frontend:/frontend
+      command: "bash -c 'rm -rf /frontend/* && cp -r /usr/src/app/build/* /frontend'"
+
+volumes:
+  frontend:
+    external: true
+
+networks:
+  default:
+    external:
+      name: eskin

@@ -1,0 +1,79 @@
+.export-file-outside-container {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(22, 22, 22, 0.808);
+  z-index: 2;
+}
+
+.export-file-inside-container {
+  position: fixed;
+  top: 40%;
+  left: 30%;
+  right: 30%;
+  bottom: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.932);
+  border-radius: 4px;
+}
+
+.export-file-inside-container label {
+  color: rgba(36, 35, 35, 0.849);
+}
+
+.export-file-inside-container select {
+  width: 60px;
+  height: 30px;
+  border: none;
+  color: rgb(87, 84, 84);
+  border-radius: 3px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  padding: 3px;
+  margin-bottom: 10px;
+}
+
+.export-file-inside-container select:focus {
+  outline: none;
+}
+
+.close-button-container {
+  margin: 0;
+  padding: 0;
+}
+
+.export-confirm-button {
+  font-family: "Montserrat", sans-serif;
+  background: rgb(204, 125, 61);
+  color: white;
+  height: 30px;
+  border-radius: 3px;
+  width: 90px;
+  border: none;
+  margin: 0 0 20px 0;
+  padding: 0;
+}
+
+.cancel-export-confirm-button {
+  margin-right: 20px;
+  font-family: "Montserrat", sans-serif;
+  border: none;
+  height: 28px;
+  border-radius: 3px;
+  width: 90px;
+  background: rgb(173, 173, 173);
+  color: white;
+}
+
+.export-confirm-button:focus {
+  outline: none;
+}
+
+.export-confirm-buttonn:focus {
+  outline: none;
+}

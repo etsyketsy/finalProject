@@ -1,0 +1,9 @@
+.biopsy-page-main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(74, 161, 219, 0.089);
+    height: calc(100vh - 80px);
+    width: 100vw;
+}

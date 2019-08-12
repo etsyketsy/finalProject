@@ -1,0 +1,19 @@
+name: project
+channels:
+- conda-forge
+dependencies:
+  - python=3.6
+  - psycopg2=2.7.4
+  - uwsgi=2.0.15
+  - pip:
+    - coverage==4.3.4
+    - django==2.0.3
+    - djangorestframework==3.7.7
+    - djangorestframework-simplejwt==3.2.3
+    - coreapi==2.3.3
+    - flake8==3.5.0
+    - django-cors-headers
+    - django-simple-history==2.7.0
+    - Pillow==6.0.0
+    - django-import-export==1.2.0
+    - djangorestframework-recursive==0.1.2

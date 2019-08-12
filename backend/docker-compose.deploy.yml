@@ -1,0 +1,35 @@
+version: '3'
+services:
+  database:
+    container_name: database
+    image: postgres:9.6.1
+    restart: always
+    env_file:
+      - ./config/prod/django.env
+    volumes:
+      - database:/var/lib/postgresql/data
+
+  project:
+    image: registry.gitlab.propulsion-home.ch/full-stack/batch-2019-02/personal-projects/eskin/backend:master
+    restart: always
+    env_file:
+      - ./config/prod/django.env
+    depends_on:
+      - database
+    command: 'sh /scripts/run.sh'
+    volumes:
+      - static-files:/static-files
+      - media-files:/media-files
+
+volumes:
+  database:
+  static-files:
+    external: true
+  media-files:
+    external: true
+
+
+networks:
+  default:
+    external:
+      name: eskin
