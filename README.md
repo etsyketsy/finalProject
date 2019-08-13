@@ -14,8 +14,8 @@ This was the final project for my [Full Stack Web Development Bootcamp](https://
 I worked alongside 2 fellow students with the guidance of our instructors to build this app from scratch to the meet the company's needs. We assigned primary responsibilities to each team member, but also contributed to each other's sections (i.e. building out endpoints, writing actions for the frontend, etc.) as needed to complete the project in the 3 week timeline.
 
 **I was primarily responsible for the following:**
-- DevOps: Project setup(file structure, container setup, etc.), deployment, [admin features](https://github.com/etsyketsy/finalProject/blob/master/backend/project/project/api/admin.py), and API/database maintenance
-- Backend: [Models](https://github.com/etsyketsy/finalProject/tree/master/backend/project/project/api/models), [serializers](https://github.com/etsyketsy/finalProject/tree/master/backend/project/project/api/Serializers), and [endpoint requirements](https://github.com/etsyketsy/finalProject/blob/master/backend/README.md)
+- DevOps: Project setup(file structure, container setup, etc.), deployment, [admin features](https://github.com/etsyketsy/finalProject/blob/master/backend/project/project/api/admin.py)
+- Backend: [Models](https://github.com/etsyketsy/finalProject/tree/master/backend/project/project/api/models), [serializers](https://github.com/etsyketsy/finalProject/tree/master/backend/project/project/api/Serializers), [endpoint requirements](https://github.com/etsyketsy/finalProject/blob/master/backend/README.md), and API/database maintenance
 - Frontend: [Reporting options](https://github.com/etsyketsy/finalProject/tree/master/frontend/frontend/src/components/Plots) and [interface](https://github.com/etsyketsy/finalProject/tree/master/frontend/frontend/src/routes/PlotsPage), API calls
 
 
