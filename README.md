@@ -1,5 +1,3 @@
-![](frontend/src/assets/logo.png)
-
 # Laboratory Dashboard
 ## What is it?
 Web app built for a team of research scientists at a biotech company to log, edit, and analyze data from each step of their experiments.
